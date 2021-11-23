@@ -1,0 +1,115 @@
+.mainW{
+    width: 100%;
+    margin: 0%;
+}
+.bannerW{
+    width: 100%;
+    display: flex;
+    background-color: #006400;
+    padding: 0%;
+    height: 25em;
+    margin-bottom: 1rem;
+}
+.banner-textW{
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.banner-textW h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+
+.banner-imgW{
+    width: 50%;
+    margin: 0%;
+}
+ .banner-imgW img {
+     width: 100%;
+ }
+ .bodyW{
+     padding-left: 2rem;
+     position: relative;
+     display: flex;
+     padding-right: 2rem;
+ }
+.bodyW img{
+    height: 80%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+ .body-1W{
+     background-color:whitesmoke;
+     border-radius: 1rem;
+     box-shadow: .2rem .8rem .2rem #e6e6e6;
+     margin-left: 20%;
+     margin-right: 10%;
+     text-align: center;
+ }
+ .body-1W p{
+     
+     line-height: 150%;
+     margin-right: 10%;
+     margin-left: 30%;
+     margin-bottom: 10%;
+     font-size: 1.5rem;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 490;
+    
+ }
+ .body-1W p:first-child{
+     margin-top: 3.5rem;
+     margin-bottom: 1rem;
+ }
+ 
+ .body-2W{
+     margin-top: 5%;
+     display: flex;
+     justify-content: center;
+     
+     align-items: center;
+     padding: 1%;
+ }
+ .body-2W img{
+     width: 10%;
+     box-shadow: 0 0.1rem 0 lightgrey;
+
+ }
+ .body-2-textW{
+     margin-left: 10%;
+     width: 60%;
+     
+ }
+ .body-2-textW p{
+     margin-right:5% ;
+     font-size: 1.5rem;
+     font-family:Arial, Helvetica, sans-serif;
+ }
+ .body-2-1W{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 1%;
+}
+.body-2-1W img{
+    box-shadow: 0 0.1rem 0 lightgrey;
+    width: 10%;
+}
+.body-2-1-textW{
+    margin-left: 10%;
+    width: 60%;
+    
+}
+.body-2-1-textW p{
+    margin-right:5% ;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}

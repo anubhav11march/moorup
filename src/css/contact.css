@@ -1,0 +1,70 @@
+.formCard
+{
+    display:flex;
+    width:75vw;
+    margin:20px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.formLeft
+{
+   width:30%;
+   padding:1rem;
+   background-color:#008B8B;
+   color:white;
+   
+}
+
+.formRight
+{
+    width:70%;
+    padding-left:2rem;
+    
+}
+.formRight form
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding-right:1rem;
+    
+}
+
+.formRight form div
+{
+    width: 45%;
+}
+
+.inputElements
+{
+    display:flex;
+    flex-direction:column;
+
+}
+.inputElements label
+{
+    line-height:2;
+}
+
+.inputElements input
+{
+    background-color:	#F0F0F0;
+    border:1px solid gray;
+    padding:.4rem;
+    border-radius:5px;
+}
+.formRight form button
+{
+    margin:1rem;
+    position:relative;
+    left:39.5rem;
+    background-color:#008B8B;
+    color:white;
+    padding:.5rem 1rem;
+    border:none;
+    width:100px;
+    borderRadius:15px;
+    cursor:pointer;
+}

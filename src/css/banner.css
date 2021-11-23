@@ -1,0 +1,16 @@
+.bannerN
+{
+    display: flex;
+}
+
+.banner-textN{
+    text-align: center;
+    align-self: center;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.banner-textN
+{
+    padding: 0 1.5rem;
+}

@@ -1,0 +1,19 @@
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3d3d3;
+    padding:1.5rem
+}
+
+.footer-list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list ul li
+{
+    line-height: 2.8;
+    color:black
+
+}

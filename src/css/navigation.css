@@ -1,0 +1,40 @@
+.navigation
+{
+
+    display:flex;
+    justify-content: space-between;
+    padding:0 1.5rem;
+}
+
+.listStyle
+{
+    list-style-type: none;
+    padding: 0;
+}
+.listStyle li
+{
+    padding-right: 2rem;
+    color:#006400;
+    font-weight: 600;
+    text-decoration:none;
+    cursor: pointer;
+}
+.navigation-inside
+{
+  
+    display:flex;
+    
+}
+.listStyle li:hover{
+    text-decoration: underline;
+    text-decoration-color: teal;
+}
+
+.link{
+    text-decoration:none;
+    color: teal;
+}
+.link:active{
+    text-decoration-line: underline;
+    text-decoration:underline;
+}
