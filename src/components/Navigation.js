@@ -1,31 +1,31 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 function Navigation()
 {
     return (
         <div className="navigation">
             <ul className="listStyle navigation-inside">
                 <li>
-                   <Link className="link" to="/whatAbout"> What to Expect</Link>
+                   <NavLink className="link" activeClassName="activeLink" to="/whatAbout"> What to Expect</NavLink>
                 </li>
                 <li>
-                <Link  className="link" to="/warranty"> Warranty</Link>
+                <NavLink  className="link"  activeClassName="activeLink" to="/warranty"> Warranty</NavLink>
                 </li>
             </ul>
             <div >
-            <Link className="link" to="/"> 
+            <NavLink className="link" to="/"> 
             <img style={{width:"100px",marginTop:"20px"}} src={require("../images/moorup-dark-green--2--10@1x.png").default} alt="" srcset="" />
-            </Link>
+            </NavLink>
             </div>
             <ul className="listStyle navigation-inside">
                 <li>
-                <Link className="link" to="/teams"> About</Link>
+                <NavLink className="link"  activeClassName="activeLink" to="/teams"> About</NavLink>
                 </li>
                 <li>
-                <Link className="link" to="/partner"> Partners</Link>
+                <NavLink className="link"  activeClassName="activeLink" to="/partner"> Partners</NavLink>
                 </li>
                 <li>
-                <Link className="link" to="/contactUs">Contact</Link>
+                <NavLink className="link"  activeClassName="activeLink" to="/contactUs">Contact</NavLink>
                 </li>
             </ul>
         </div>

@@ -1,3 +1,80 @@
 .main-div{
     text-align: center;
 }
+.customCont{
+    background-color: teal;
+    width: 13%;
+    border-radius: .8rem;
+    height: 15rem;
+    padding: .5rem;
+    text-align: start;
+    margin-right: 5%;
+    box-shadow: .2rem .4rem 1rem lightgray;
+
+    
+}
+.customCont2{
+    background-color:white;
+    width: 13%;
+    border-radius: .8rem;
+    height: 15rem;
+    padding: .5rem;
+    text-align: start;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: .2rem .4rem 1rem lightgray;
+
+    
+}
+.customCont-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: .05rem;
+    
+}
+.customCont-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: .05rem;
+
+}
+.date{
+    font-size: .8rem;
+    color: white;
+}
+.name{
+    font-size: 1rem;
+    color: white;
+}
+.customCont-1 img{
+    width: 20%;
+    height: 20%;
+}
+.customCont-2 img{
+    width: 20%;
+    height: 20%;
+}
+.customR{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: white;
+}
+.date2{
+    font-size: .8rem;
+    color: black;
+}
+.name2{
+    font-size: 1rem;
+    color: black;
+}
+.customR2{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: black;
+}

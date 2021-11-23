@@ -1,7 +1,37 @@
-import React from 'react'
-
+import React,{useState} from 'react'
+import axios from 'axios'
 import '../css/contact.css'
  const Form = () => {
+     const primitiveData={
+         firstname:'',
+         lastname:'',
+         email:'',
+         phone:'',
+         message:'',
+         emailTo:'contact@moorup.no'
+     }
+     const [initialData,setinitialData] = useState(primitiveData)
+     const [count,setCount] =useState(false)
+     const submitHandler= async(e)=>{
+         e.preventDefault()
+         try{
+             console.log(initialData)
+           
+            await axios.post('https://moorup.herokuapp.com/api/contact/email',
+            initialData)
+            setCount(true)
+            
+         }catch{
+            console.log('there is error')
+         }
+     } 
+
+     const changeHandler =(e)=>{
+        const name = e.target.name
+        const value = e.target.value
+        setinitialData((initialData)=>({...initialData, [name]:value}))
+     }
+
     return (
         <>
         
@@ -25,34 +55,36 @@ import '../css/contact.css'
               </div>
             </div>
             <div className="formRight">
-
+            { count? <h3>Thank You !</h3>:
+             <div>
             <h3>Send us a message</h3>
-            <form  action="">
+            <form  onSubmit={submitHandler}>
                 <div className="inputElements">
-                    <label htmlFor="">First Name</label>
-                    <input type="text" />
+                    <label htmlFor="firstname">First Name</label>
+                    <input name="firstname" type="text" onChange={changeHandler}/>
                 </div>
                 <div className="inputElements">
-                    <label htmlFor="">Last Name</label>
-                    <input type="text" />
+                    <label htmlFor="lastname">Last Name</label>
+                    <input name="lastname" type="text" onChange={changeHandler}/>
                 </div>
                 <div className="inputElements">
-                    <label htmlFor="">Email</label>
-                    <input type="text" />
+                    <label htmlFor="email">Email</label>
+                    <input type="text" name="email" onChange={changeHandler} />
                 </div>
                 <div className="inputElements">
-                    <label htmlFor="">Phone</label>
-                    <input type="text" />
+                    <label htmlFor="phone">Phone</label>
+                    <input type="text" name="phone" onChange={changeHandler} />
                 </div>
                 <div style={{width:"100%"}} className="inputElements">
-                    <label htmlFor="">Message</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label htmlFor="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" onChange={changeHandler}></textarea>
                 </div>
                 
-                <button style={{backgroundColor:"#008B8B",color:"white",padding:".5rem 1rem",border:"none",width:"100px",borderRadius:"15px"}}>Submit</button>
+                <button type='submit' style={{backgroundColor:"#008B8B",color:"white",padding:".5rem 1rem",border:"none",width:"100px",borderRadius:"15px"}}>Submit</button>
             
                 
             </form>
+            </div>}
             </div>
         </div>
         

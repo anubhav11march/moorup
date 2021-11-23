@@ -34,7 +34,10 @@
     text-decoration:none;
     color: teal;
 }
-.link:active{
+
+.activeLink{
+    text-decoration-style: solid;
     text-decoration-line: underline;
     text-decoration:underline;
+    text-decoration-color: teal;
 }
