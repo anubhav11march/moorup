@@ -36,22 +36,24 @@ import '../css/contact.css'
         <>
         
         <div style={{textAlign:'center'}}>
-            <h2 style={{fontFamily:'Axiforma',fontSize:'40pt',fontWeight:'bold'}}>Get in touch:</h2>
-            <p style={{width:"40%",marginLeft:"30%",fontSize:'20pt',fontFamily:'Muli'}}>Leave us a message and we will get in touch as soon as possible.</p>
+            <h2 style={{fontSize:'20pt',fontWeight:'700'}} className='contactH'>Get in touch:</h2>
+            <p style={{width:"30%",marginLeft:"35%",fontSize:'16pt',}} className='contactP'>Leave us a message, and we will get in touch as soon as possible.</p>
         </div>
         <div className="formCard">
             <div className="formLeft">
               <div>
                   <h3 style={{marginTop:"2rem"}}>Contact information</h3>
-                  <p>
+                  <div className="lFt">
+                     <img src={require('../images/path-61-1@1x.png').default} style={{height:'.8rem',width:'.8em',marginRight:'1rem'}}/>
                       Phone : +4799446688
-                  </p>
-                  <p>
+                  </div>
+                  <div className="lFt">
+                  <img src={require('../images/path-60-1@1x.png').default} style={{height:'.8rem',width:'1rem',marginRight:'1rem'}}/>
                       Email : contact@moorup.no
-                  </p>
-                  <p>
+                  </div>
+                  <div style={{marginTop:"1rem"}}>
                       **Please note that email will be responded to within 24 hours
-                  </p>
+                  </div>
               </div>
             </div>
             <div className="formRight">
@@ -81,7 +83,9 @@ import '../css/contact.css'
                     <textarea name="message" id="" cols="30" rows="10" onChange={changeHandler}></textarea>
                 </div>
                 
-                <button type='submit' style={{backgroundColor:"#008B8B",color:"white",padding:".5rem 1rem",border:"none",width:"100px",borderRadius:"15px"}}>Submit</button>
+                <button type='submit' style={{backgroundColor:"#008B8B",color:"white",padding:".5rem 1rem",border:"none",width:"100px",borderRadius:"15px",alignSelf:"center",alignItems:'center',display:'flex'}}>Submit
+                 <img src={require('../images/path-238@1x.png').default} style={{height:'1rem',width:'1rem',marginLeft:'1rem'}}/>
+                </button>
             
                 
             </form>

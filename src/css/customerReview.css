@@ -1,8 +1,17 @@
 .main-div{
     text-align: center;
 }
+.review{
+    text-align: center;
+    font-family: "Muli-Regular", Helvetica;
+    font-style:normal;
+    font-size: 30pt;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 .customCont{
-    background-color: #007e69;
+    background-color: #4baa9a;
     width: 13%;
     border-radius: .8rem;
     height: 15rem;
@@ -14,6 +23,7 @@
 
     
 }
+
 .customCont2{
     background-color:white;
     width: 13%;

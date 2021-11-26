@@ -6,22 +6,24 @@
     
 }
 .banner-text{
-    width: 50%;
+    width: 70%;
     padding-top:2%;
-    padding-left: 5%;
+    padding-left: 3%;
     text-align: center;
     padding-right: 5%;
+    margin-top: 4rem;
     
 }
-.banner-text p{
-    font-size: 20pt;
-    font-family: 'Muli';
-    line-height: 130%;
-    margin-left: 5%;
+.banner-text {
+    font-size: 18pt;
+    font-family: "Muli-Regular", Helvetica;
+    font-style: normal;
+    line-height: 2.5rem;
+    font-weight: 400;
     margin-bottom: 8%;
 }
 .banner-img{
-    width: 50%;
+    width: 60%;
     justify-content: center;
     align-self: center;
     align-content: center;justify-self: center;
@@ -43,14 +45,17 @@
 .body-1 h2{
     color:#007e69;
     font-size: 40pt;
-    font-family: 'Axiforma';
-    font-weight: bold;
+    font-style: normal;
+    font-family: "Muli-Bold", Helvetica;
+    font-weight: 700;
 }
 .body-1 p{
-    font-size: 20pt;
-    font-family: 'Muli';
-    line-height: 120%;
+    font-size: 17pt;
+    font-family: "Muli-Regular", Helvetica;
+    line-height: 2.5rem;
     margin-left: 0%;
+    font-style: normal;
+    font-weight: 400;
     margin-bottom: 8%;
 }
 .body-2{

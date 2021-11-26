@@ -69,3 +69,17 @@
     width:100px;
     cursor:pointer;
 }
+.lFt{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.contactH{
+    font-family: "Muli-Bold", Helvetica;
+    font-style: normal;
+}
+.contactP{
+    font-family: "Muli-Regular", Helvetica;
+    font-weight: 400;
+    font-style: normal;
+}

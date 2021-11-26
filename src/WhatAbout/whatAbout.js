@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/Footer"
 
 import "../css/whatAbout.css"
 const WhatAbout =()=>{
@@ -12,21 +13,23 @@ const WhatAbout =()=>{
        <div className="mainWA">
         <div className="bannerWA">
             <div className="banner-textWA" style={{width:"80%"}}>
-                <h1 style={{marginBottom:'3.5rem',fontWeight:'bold',color:'#01463a',fontSize:"50pt",font:"Axiforma"}} >What  to  Expect</h1>
-                <p className="Np">You must be wandering what is the meaning of Moorup? It simply means "LIFE" in the Wai Wurrung language of Australia's First Nations people. A name we share with our sister company Moorup Australia</p>
-                <p  className="Np">
+                <div className="whatHeader">What  to  Expect</div>
+                <div className="Np">You must be wandering what is the meaning of Moorup? It simply means "LIFE" in the Wai Wurrung language of Australia's First Nations people. A name we share with our sister company Moorup Australia.
+                  <br/>
+                  <br/>
+                
                     We are Norway-based technology company,whose mission is to extend the lives of consumer electronics, and by doing so, help to address the environmental challenges left behind from the production and the lack of solutions that make reuse and recycling convenient. Our team of telecommunication experts utilizes their networks to deliver tailored solutions to partners and channels across Europe.
-                </p> 
+                </div> 
                 <button className="banner-btnWA">
                     <a  className="Np" href='#'>Where to purchase ?</a>
                 </button>
             </div>
             <div className="banner-imgWA" style={{width:"90%"}} >
-                <img  style={{width:'80%',marginLeft:'2rem'}}src={require('../images/moorup-lifecycleartwork-02--1-@1x.png').default}/>
+                <img  style={{width:'70%',marginLeft:'2rem'}}src={require('../images/moorup-lifecycleartwork-02--1-@1x.png').default}/>
             </div>
         </div>
         <div className="bodyWA">
-            <h2 style={{font:"Axiforma",fontSize:"40pt",fontWeight:"bold",color:"#01463a"}}> Frequently Asked Questions</h2>
+             Frequently Asked Questions
             </div>
             <div className="inr-bodyWA">
              <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
@@ -117,7 +120,7 @@ const WhatAbout =()=>{
              
         
        </div>
-     
+          <Footer/>
        </>
     )
 }

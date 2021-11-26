@@ -30,6 +30,13 @@
     border-width: .13rem;
     box-shadow: .2rem .4rem .2rem lightgrey;
 }
+.whatHeader{
+    font-family: "Muli-Bold", Helvetica;
+    font-weight: 700;
+    color: #007e69;
+    font-style: normal;
+    font-size: 40pt;
+}
 .banner-btnWA a{
     text-decoration: none;
     color: #006400;
@@ -43,13 +50,22 @@
    
 }
 .Np{
-    font-family:'Muli';
+    font-style: normal;
     color: black;
-    font-size: 20pt;
+    font-size: 15pt;
+    line-height: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 .bodyWA{
     text-align: center;
     margin-top: 9rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    font-size: 35pt;
+    font-style: normal;
+    font-family: "Muli-Regular", Helvetica;
+
 
 }
 .bodyWA h2{
@@ -83,9 +99,9 @@
 .body-1-1WA p{
     margin-right: 2rem;
     margin-bottom: 3rem;
-    font-family:'Muli';
+    font-family:"Muli-Regular", Helvetica;
     color: black;
-    font-size: 20pt;
+    font-size: 15pt;
 }
 .body-2WA{
     width: 60%;
@@ -94,7 +110,8 @@
 .body-2WA p{
     margin-right: 2rem;
     margin-bottom: 3rem;
-    font-family:'Muli';
+    font-family:"Muli-Regular", Helvetica;
+
     color: black;
-    font-size: 20pt;
+    font-size: 15pt;
 }

@@ -3,12 +3,11 @@ import React from 'react'
 const ChooseCountry = () => {
     return (
         <div className="chooseCountry">
-            <h1>
+        <div className="textCountry">
                 Where to buy a
-            </h1>
-            <h1>
+            <br/>
                 Verified Pre-Owned Product ?
-            </h1>
+                </div>
         </div>
     )
 }

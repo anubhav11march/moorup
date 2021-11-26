@@ -27,7 +27,6 @@ function App() {
        <Route path="/partner" element={<Partner/>}/>
        <Route path="/contactUs" element={<Form/>}/>
      </Routes>
-     <Footer/>
    </div>
   );
 }

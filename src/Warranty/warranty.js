@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/Footer"
 
 import "../css/warranty.css"
 
@@ -30,14 +31,14 @@ const Warranty =()=>{
                 <img src={require("../images/tisemobile@1x.png").default}/>
                   <div className="body-2-textW">
                        <p>
-                        If you have any problems with your product, please contact Tise Mobile on <a href="#">shop@tisemobile.com</a> or phone number; 994 46 999</p>
+                        If you have any problems with your product, please contact Tise Mobile on <a style={{color:'#1782ff'}} href="#">shop@tisemobile.com</a> or phone number; 994 46 999</p>
                   </div>
             </div>
             <div className="body-2-1W">
                 <img src={require("../images/nortel-logo-gronn-2x@1x.png").default}/>
                   <div className="body-2-1-textW">
                        <p>
-                        If you have any problems with your product, please contact Moorup on <a href="#">contact@moorup.com</a> or phone number; 994 46 688</p>
+                        If you have any problems with your product, please contact Moorup on <a style={{color:'#1782ff'}} href="#">contact@moorup.com</a> or phone number; 994 46 688</p>
                   </div>
             </div>
             <div className="body-2-1W">
@@ -52,7 +53,7 @@ const Warranty =()=>{
                   </div>
             </div>
         </div>
-       
+         <Footer/>
         </>
     )
 }

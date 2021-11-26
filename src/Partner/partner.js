@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "../components/Footer"
 import "../css/partner.css"
  
 const Partner =()=>{
@@ -9,8 +9,11 @@ const Partner =()=>{
       <div className="main">
           <div className="banner">
               <div className="banner-text">
-                  <p>In Moorup we strongly believe in order to choose a preowned products as an alternative to new, we must make available a 'toolkit' of products and services that make it convenient and more affordable for our partners' end customers</p>
-                  <p>Partnering with Moorup will allow you to focus on day to day priorities, while still  being able to participate and capture the value in the fast growing prewoned consumer electronics category. With our deep commitment to the enviornment and sustanbility focus, you can be sure to  grow your business through our support in a credible and compliant matter.</p>
+                  <div>In Moorup we strongly believe in order to choose a preowned products as an alternative to new, we must make available a 'toolkit' of products and services that make it convenient and more affordable for our partners' end customers
+                      <br/>
+                      <br/>
+                  </div>
+                  <div>Partnering with Moorup will allow you to focus on day to day priorities, while still  being able to participate and capture the value in the fast growing prewoned consumer electronics category. With our deep commitment to the enviornment and sustanbility focus, you can be sure to  grow your business through our support in a credible and compliant matter.</div>
               </div>
               <div className="banner-img">
                   <img src={require("../images/woman-3083379-1920--1-@1x.png").default}/>
@@ -72,7 +75,7 @@ const Partner =()=>{
                             <h2>
                                 Customer Service Operations
                             </h2>
-                            <p>From returns and warranty claims handling to fully outsourced customer services operations. We have you covered, so you can focus on your customers. If you want to know more about how we can enable you in taking a meaningful position in the circular economy, please <a href="#"> contact us</a></p>
+                            <p>From returns and warranty claims handling to fully outsourced customer services operations. We have you covered, so you can focus on your customers. If you want to know more about how we can enable you in taking a meaningful position in the circular economy, please <a style={{color:'black',fontWeight:"700"}} href="#"> contact us .</a></p>
                         </div>
                     </div>
                 
@@ -80,7 +83,7 @@ const Partner =()=>{
             </div>
 
       </div>
- 
+         <Footer/>
       </>
   )
 }

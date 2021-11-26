@@ -3,19 +3,28 @@
     display: flex;
 }
 
-.banner-textN h2{
-    font-size: 40pt;
-    font-family: 'Axiforma';
-    font-weight: bold;
+.banner-textN {
+    font-size: 50px;
+    font-family: "Muli-Regular", Helvetica;
+    font-weight: 700;
+    font-size: 38.0pt;
+    ;
+    line-height: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+
 }
 .banner-textN{
     text-align: center;
     align-self: center;
    
 }
-.banner-textN p{
-    font-family: 'Muli';
-    font-size: 20pt;
+.banner-textNp{
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18pt;
+    line-height: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .banner-textN

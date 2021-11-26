@@ -1,20 +1,37 @@
 .introduction
 {
     background-color: #007e69;
+    opacity: 0.86;
     color:white;
     border-radius: 30px;
     text-align: center;
-    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
     margin: 6rem 0;
     box-shadow: 2px 16px 16px -8px gray;
+    width: calc(100%-293px);
     
 }
-
-.introduction h1
-{
-    font-size: 2rem;
-
+.h2{
+    font-family: "Muli-Regular", Helvetica;
+    font-weight: 700;
+    font-size: 32pt;
+    margin-bottom: 2rem;
 }
+.para{
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18pt;
+    line-height: 2.3rem;
+    letter-spacing: 0.12px;
+    padding-left: 5rem;
+    font-weight: 400;
+    padding-right: 5rem;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 
 .introduction p
 {
@@ -28,5 +45,8 @@
     border-radius:2px ;
     color:white;
     padding:6px 10px;
-    cursor: pointer;
+    font-weight: 700;
+    font-size: 15pt;
+    font-family:"Muli-Regular", Helvetica ;
+    margin-bottom:2rem ;
 }
