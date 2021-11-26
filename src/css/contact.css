@@ -21,6 +21,9 @@
 {
     width:70%;
     padding-left:2rem;
+   
+    align-self: center;
+  
     
 }
 .formRight form
@@ -58,13 +61,11 @@
 .formRight form button
 {
     margin:1rem;
-    position:relative;
-    left:39.5rem;
+    margin-left: 80%;
     background-color:#008B8B;
     color:white;
     padding:.5rem 1rem;
     border:none;
     width:100px;
-    borderRadius:15px;
     cursor:pointer;
 }

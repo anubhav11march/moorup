@@ -5,9 +5,10 @@
 .bannerW{
     width: 100%;
     display: flex;
-    background-color: #006400;
+    background-color:#007e69;
     padding: 0%;
     height: 25em;
+    
     margin-bottom: 1rem;
 }
 .banner-textW{

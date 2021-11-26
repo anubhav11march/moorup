@@ -17,7 +17,7 @@ const Partner =()=>{
               </div>
           </div>
           <div className="body-1">
-              <h1>How is Moorup differnet ?</h1>
+              <h2>How is Moorup differnet ?</h2>
               <p>We understand how hard it is to find a partner easy to work with. To manage the pre-owned category requires experienced partners to help you, so you can focus on creating market differentiaion and customer value. We've been there! We get it! Moorup provides solution at speed, meaning <b>WE</b> do the hard work, so <b>YOU</b> can focus your customer proposition</p>
           </div>
           <div className="body-2">

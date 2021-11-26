@@ -14,8 +14,10 @@
 .listStyle li
 {
     padding-right: 2rem;
-    color:#006400;
-    font-weight: 600;
+    color:#01463a;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: "Muli";
     text-decoration:none;
     cursor: pointer;
 }
@@ -27,17 +29,17 @@
 }
 .listStyle li:hover{
     text-decoration: underline;
-    text-decoration-color: teal;
+    text-decoration-color:#01463a;
 }
 
 .link{
     text-decoration:none;
-    color: teal;
+    color: #01463a;
 }
 
 .activeLink{
     text-decoration-style: solid;
     text-decoration-line: underline;
     text-decoration:underline;
-    text-decoration-color: teal;
+    text-decoration-color:#01463a;
 }

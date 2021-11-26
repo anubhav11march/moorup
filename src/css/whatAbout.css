@@ -20,10 +20,7 @@
     justify-content: center;
     
 }
-.banner-textWA p{
-    font-size: 1.05rem;
-    font-weight: 400;
-}
+
 .banner-btnWA{
     border-radius: .5rem;
     padding: .5rem;
@@ -36,16 +33,19 @@
 .banner-btnWA a{
     text-decoration: none;
     color: #006400;
-    font-size: 1rem;
-    font-weight: 600;
+    
     
 }
 .banner-imgWA{
-  
-    margin-top: 2rem;
-    /* background-color: seagreen; */
-    padding: 2rem;
-    margin-left: 2rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.Np{
+    font-family:'Muli';
+    color: black;
+    font-size: 20pt;
 }
 .bodyWA{
     text-align: center;
@@ -82,8 +82,10 @@
 }
 .body-1-1WA p{
     margin-right: 2rem;
-    font-weight: 450;
     margin-bottom: 3rem;
+    font-family:'Muli';
+    color: black;
+    font-size: 20pt;
 }
 .body-2WA{
     width: 60%;
@@ -91,5 +93,8 @@
 }
 .body-2WA p{
     margin-right: 2rem;
-    font-weight: 450;
+    margin-bottom: 3rem;
+    font-family:'Muli';
+    color: black;
+    font-size: 20pt;
 }

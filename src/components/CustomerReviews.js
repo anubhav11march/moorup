@@ -4,8 +4,8 @@ function CustomerReviews()
         <div className="main-div">
             <p style={{fontSize:"2rem",fontWeight:'bold'}}> Customer Reviews</p>
             <div style={{flexDirection:"row",display:'flex',marginLeft:'5%'}}>
-                <div className="customCont" style={{marginLeft:"10%"}}>
-                <div className="customCont-1">
+                <div className="customCont"  style={{marginLeft:"10%"}}>
+                <div className="customCont-1" >
                     <div>
                     <p className="date">6th, June 2021</p>
                     <p className="name">Trili Echoff</p>

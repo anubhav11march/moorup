@@ -36,8 +36,8 @@ import '../css/contact.css'
         <>
         
         <div style={{textAlign:'center'}}>
-            <h2>Get in touch:</h2>
-            <p style={{width:"20%",marginLeft:"40%",fontWeight:'600'}}>Leave us a message and we will get in touch as soon as pssible.</p>
+            <h2 style={{fontFamily:'Axiforma',fontSize:'40pt',fontWeight:'bold'}}>Get in touch:</h2>
+            <p style={{width:"40%",marginLeft:"30%",fontSize:'20pt',fontFamily:'Muli'}}>Leave us a message and we will get in touch as soon as possible.</p>
         </div>
         <div className="formCard">
             <div className="formLeft">
@@ -47,7 +47,7 @@ import '../css/contact.css'
                       Phone : +4799446688
                   </p>
                   <p>
-                      Email : abc@gmail.com
+                      Email : contact@moorup.no
                   </p>
                   <p>
                       **Please note that email will be responded to within 24 hours
@@ -55,7 +55,8 @@ import '../css/contact.css'
               </div>
             </div>
             <div className="formRight">
-            { count? <h3>Thank You !</h3>:
+            { count?
+            <div style={{width:"100%",height:"100%",textAlign:"center"}}> <h1 style={{fontWeight:"bold",fontFamily:'Axiforma',fontSize:"50pt"}}>Thank You !</h1></div>:
              <div>
             <h3>Send us a message</h3>
             <form  onSubmit={submitHandler}>

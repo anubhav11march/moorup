@@ -17,6 +17,7 @@ const Warranty =()=>{
                 </div>
                     <img style={{width:'50%'}} src ={require("../images/mobile-phone-repair-service-london@1x.png").default}/>
             </div>
+             
             <div className ="bodyW">
                 <img src ={require("../images/ben-kolde-xdlxpic3wfk-unsplash@1x.png").default}/>
                 <div className="body-1W">
@@ -24,6 +25,7 @@ const Warranty =()=>{
                     <p> As the warrnaty conditions varies dependent on which channel or county you have bought the product, so if you face any issues, check with the channel you have bought the product through on how we best can help you</p>
                 </div>
             </div>
+            
             <div className="body-2W">
                 <img src={require("../images/tisemobile@1x.png").default}/>
                   <div className="body-2-textW">
