@@ -2,7 +2,7 @@ function CustomerReviews()
 {
     return (
         <div className="main-div">
-            <p style={{fontSize:"2rem",fontWeight:'bold'}}> Customer Reviews</p>
+            <h2 style={{fontSize:"40pt",fontWeight:'bold',fontFamily:'Axiforma'}}> Customer Reviews</h2>
             <div style={{flexDirection:"row",display:'flex',marginLeft:'5%'}}>
                 <div className="customCont"  style={{marginLeft:"10%"}}>
                 <div className="customCont-1" >
