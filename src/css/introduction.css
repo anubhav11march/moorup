@@ -10,8 +10,8 @@
     padding-left: 5rem;
     margin: 6rem 0;
     box-shadow: 2px 16px 16px -8px gray;
-    width: calc(100%-293px);
-    
+    width: 80%;
+    margin-left: 5%;
 }
 .h2{
     font-family: "Muli-Regular", Helvetica;
