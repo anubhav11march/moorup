@@ -114,3 +114,25 @@
     font-size: 1.5rem;
     font-family:Arial, Helvetica, sans-serif;
 }
+.dropdown{
+    background-color:white;
+   display: flex;
+   text-align: center;
+   align-content: center;
+   align-items: center;
+   width: 25%;
+   font-style: normal;
+   font-family: "Muli-Bold", Helvetica;
+   font-weight: 700;
+   color: #007e69;
+   border-radius: .5rem;
+   padding: .3rem 1rem;
+  box-shadow: .2rem .3rem .5rem lightgray;
+}
+
+.dropdown img{
+    height: 12%;
+    width:  12%;
+    margin-left: 4rem;
+    border-radius: 2rem;
+}

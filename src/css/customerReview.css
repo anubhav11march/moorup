@@ -8,9 +8,10 @@
     font-size: 30pt;
     font-weight: 700;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 .customCont{
+    
     background-color: #4baa9a;
     width: 13%;
     border-radius: .8rem;
@@ -25,6 +26,9 @@
 }
 
 .customCont2{
+    position: absolute;
+    top:53rem;
+    left: 30rem;
     background-color:white;
     width: 13%;
     border-radius: .8rem;
@@ -33,6 +37,37 @@
     text-align: start;
     margin-right: 5%;
     margin-bottom: 5%;
+    box-shadow: .2rem .4rem 1rem lightgray;
+
+    
+}
+.customCont3{
+    position: absolute;
+    top:53rem;
+    right: 11rem;
+    background-color:white;
+    width: 13%;
+    border-radius: .8rem;
+    height: 15rem;
+    padding: .5rem;
+    text-align: start;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: .2rem .4rem 1rem lightgray;
+
+    
+}
+.customCont4{
+    position: absolute;
+    left: 48rem;
+    background-color: #4baa9a;
+    width: 13%;
+    border-radius: .8rem;
+    height: 15rem;
+    padding: .5rem;
+    text-align: start;
+    margin-right: 5%;
+    margin-bottom: -5%;
     box-shadow: .2rem .4rem 1rem lightgray;
 
     

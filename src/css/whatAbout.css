@@ -95,6 +95,7 @@
   padding-right: 2rem;
   width: 60%;
   box-shadow: .3rem .5rem .3rem lightgray;
+  
 }
 .body-1-1WA p{
     margin-right: 2rem;
@@ -105,6 +106,7 @@
 }
 .body-2WA{
     width: 60%;
+    transition: 3s ease-out;
     
 }
 .body-2WA p{

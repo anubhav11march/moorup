@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import axios from 'axios'
 import '../css/contact.css'
  const Form = () => {
@@ -11,20 +11,26 @@ import '../css/contact.css'
          emailTo:'contact@moorup.no'
      }
      const [initialData,setinitialData] = useState(primitiveData)
+     const [isLoading,setIsLoading] =useState(true)
      const [count,setCount] =useState(false)
-     const submitHandler= async(e)=>{
-         e.preventDefault()
-         try{
-             console.log(initialData)
-           
-            await axios.post('https://moorup.herokuapp.com/api/contact/email',
-            initialData)
-            setCount(true)
-            
-         }catch{
-            console.log('there is error')
-         }
-     } 
+
+        const submitHandler= async(e)=>{
+            e.preventDefault()
+            try{
+                console.log(initialData)
+                 setIsLoading(true)
+               await axios.post('https://moorup.herokuapp.com/api/contact/email',
+               initialData)
+               setIsLoading(false)
+              setCount(true)
+               
+               
+            }catch{
+               console.log('there is error')
+            }
+        } 
+     
+     
 
      const changeHandler =(e)=>{
         const name = e.target.name
@@ -57,8 +63,10 @@ import '../css/contact.css'
               </div>
             </div>
             <div className="formRight">
-            { count?
-            <div style={{width:"100%",height:"100%",textAlign:"center"}}> <h1 style={{fontWeight:"bold",fontFamily:'Axiforma',fontSize:"50pt"}}>Thank You !</h1></div>:
+            { !isLoading?
+            <div style={{width:"100%",height:"100%",textAlign:"center"}}> <h1 style={{fontWeight:"bold",fontSize:"50pt"}}>Thank You !</h1></div>:
+             <h1>Loading</h1>}
+              {count?null:
              <div>
             <h3>Send us a message</h3>
             <form  onSubmit={submitHandler}>
@@ -89,6 +97,7 @@ import '../css/contact.css'
             
                 
             </form>
+ 
             </div>}
             </div>
         </div>

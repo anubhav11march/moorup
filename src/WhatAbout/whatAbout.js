@@ -4,9 +4,30 @@ import Footer from "../components/Footer"
 import "../css/whatAbout.css"
 const WhatAbout =()=>{
     const[open,setOpen]=useState(false)
+    const[open1,setOpen1]=useState(false)
+    const[open2,setOpen2]=useState(false)
+    const[open3,setOpen3]=useState(false)
+    const[open4,setOpen4]=useState(false)
+    const[open5,setOpen5]=useState(false)
+
   const  clickHandler =(e)=>{
       setOpen(!open)
   }
+  const  clickHandler1 =(e)=>{
+    setOpen1(!open1)
+}
+const  clickHandler2 =(e)=>{
+    setOpen2(!open2)
+}
+const  clickHandler3 =(e)=>{
+    setOpen3(!open3)
+}
+const  clickHandler4 =(e)=>{
+    setOpen4(!open4)
+}
+const  clickHandler5 =(e)=>{
+    setOpen5(!open5)
+}
     return(
         <>
       
@@ -32,13 +53,13 @@ const WhatAbout =()=>{
              Frequently Asked Questions
             </div>
             <div className="inr-bodyWA">
-             <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
+             <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} >
                  <h2>Why choose a Moorup Verified Pre-Owned product, instead of new one ? </h2>
-                 {open?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
+                 <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />
                  </div>
-                 {open? <div className="body-1-1WA">
+                 <div className="body-1-1WA">
                      <p>Environment:Today, an estimated 1.5 billion telephones are produced every single year, which has significant environmental impact. It is as safe as buying new, but cheaper and immnesly beneficial for our planet </p>
-                 </div>:null}  
+                 </div>
         </div>
              <div className="inr-bodyWA">
                  <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
@@ -54,12 +75,12 @@ const WhatAbout =()=>{
                  
              </div>
              <div className="inr-bodyWA">
-                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
+                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler1}>
                      <h2>Where do products come from?</h2>
-                     {open?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
+                     {open1?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
 
                  </div>   
-                 { open?
+                 { open1?
                      <div className="body-2WA">
                          <p> All Moorup Verified Pre-Owned products are return from returns from trade in and buy back programs, either from mobile operators or vendors directlty  </p>
                      </div>:null
@@ -67,35 +88,35 @@ const WhatAbout =()=>{
                  
              </div>
              <div className="inr-bodyWA">
-                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
+                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler2}>
                      <h2>What does the warranty cover ?</h2>
-                     {open?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
+                     {open2?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
 
                  </div>
-                 {open?
+                 {open2?
                      <div className="body-2WA">
                          <p>Moorup Verified Pre-Owned products depends on product category and from which  partner its has been bought from. It has the same cover as issued by manufacturer when the product  was new. Though self-inflicted damage such as broken screen, etc. are naturally not covered </p>
                      </div>:null}
                  
              </div>
              <div className="inr-bodyWA">
-                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
+                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler3}>
                      <h2>What about battery capacity ?</h2>
-                     {open?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
+                     {open3?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
 
                  </div>    
-                 {open?
+                 {open3?
                      <div className="body-2WA">
                          <p>Battey  is a degrading product. When buying a used electronic product, it is normal for hte battery capacity to somewhat reduced from when it was new. However, Moorup guarantees that all product has minimum 85% remaining battery capacity </p>
                      </div>:null}
                  
              </div>
              <div className="inr-bodyWA">
-                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
+                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler4}>
                      <h2> What is meant by the Quality Assuarence Process ?</h2>
-                     {open?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
+                     {open4?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
 
-                 </div>  {open?   
+                 </div>  {open4?   
                      <div className="body-2WA">
                          <p>First, product is cosmetically checked for usage marks or any damage. Only a finest slip through and undergo a through testing process to eventually be classified as Moorup Verified Pre-Owned</p>
                          <p>For testing, the product is connected ( if it is a phone or a tablet ) to Moorup's diagnostic tool to verify  all the functionalities such as camera, speaker, microphone, physical buttons, sensor and screen features are in good working order </p>
@@ -106,11 +127,11 @@ const WhatAbout =()=>{
                  
              </div>
              <div className="inr-bodyWA">
-                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler}>
+                 <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} onClick={clickHandler5}>
                      <h2> Still cant't find what you are looking for ?</h2>
-                     {open?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
+                     {open5?<img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />: <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem"}} />}
                  </div>   
-                    {open? <div className="body-2WA">
+                    {open5? <div className="body-2WA">
                      <h2> Contact us today:</h2>
                          <p>Phone Number: +47 994 688</p>
                          <p>Email: contact@moorup.no</p>

@@ -27,7 +27,7 @@ function CustomerReviews()
                 </div >
                 <p className="customR2">Lorem ipsum dolor sit amet, consectetur adipiscing elitfficitur lacus. Class aptent taciti sociosqu ad litora torquent per</p>
                 </div>
-                <div className="customCont">
+                <div className="customCont4">
                 <div className="customCont-1">
                     <div>
                     <p className="date">6th, June 2021</p>
@@ -37,7 +37,7 @@ function CustomerReviews()
                 </div >
                 <p className="customR">Lorem ipsum dolor sit amet, consectetur adipiscing elitfficitur lacus. Class aptent taciti sociosqu ad litora torquent per</p>
                 </div>
-                <div className="customCont2">
+                <div className="customCont3">
                 <div className="customCont-2">
                     <div>
                     <p className="date2">6th, June 2021</p>

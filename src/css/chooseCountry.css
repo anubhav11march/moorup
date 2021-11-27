@@ -1,6 +1,8 @@
 .chooseCountry
 {
-    text-align: center;
+    
+    
+    margin-top: 10rem;
 }
 
 .textCountry{
@@ -11,4 +13,30 @@
     font-weight: 700;
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+.dropdownC{
+    background-color:white;
+   display: flex;
+   text-align: center;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   justify-self: center;
+   width: 25%;
+   margin-left: 53%;
+   font-style: normal;
+   font-family: "Muli-Bold", Helvetica;
+   font-weight: 700;
+   color: #007e69;
+   border-radius: .5rem;
+   padding: .3rem 1rem;
+  box-shadow: .2rem .3rem .5rem lightgray;
+}
+
+.dropdownC img{
+    height: 12%;
+    width:  12%;
+    margin-left: 4rem;
+    border-radius: 2rem;
 }

@@ -6,8 +6,9 @@ import "../css/warranty.css"
 const Warranty =()=>{ 
     const[click,setClick]=useState(false);
     const toggleHandler=()=>{
-        
+        setClick(!click)
     }
+    const[selected,setSelected]=useState()
     return(
         <>
         
@@ -44,14 +45,24 @@ const Warranty =()=>{
             <div className="body-2-1W">
                 <img src={require("../images/power2@1x.png").default}/>
                   <div className="body-2-1-textW">
-                    <div className="dropdown">
-                        <p>Choose Country</p>
+                    <div className="dropdown" onClick={toggleHandler}>
+                        Choose Country
+                        <img src={require('../images/icons8-expand-arrow-90.png').default}/>
                     </div>
-                    <div>
-                        
-                    </div>
+                    {click?
+            <div className="dropdown2">
+                <ul className="dropdownUl">
+                    <li className="dropDownLi">Norway</li>
+                    <li>Sweden</li>
+                    <li>Denmark</li>
+                    <li>Iceland</li>
+                    <li>England</li>
+                </ul>
+            </div>:null}
                   </div>
             </div>
+            
+           
         </div>
          <Footer/>
         </>
