@@ -27,19 +27,11 @@
     display:flex;
     
 }
-.listStyle a:hover{
-    text-decoration: underline;
-    text-decoration-color:#01463a;
-}
 
-.link{
-    text-decoration:none;
-    color: #01463a;
+
+.underline {
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    color: red;
+    border-bottom-color: #01463a;
 }
-/* 
-.activeLink{
-    text-decoration-style: un;
-    text-decoration-line: underline;
-    text-decoration:underline;
-    text-decoration-color:#01463a;
-} */

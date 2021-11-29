@@ -6,12 +6,12 @@ function Navigation()
         <div className="navigation">
             <ul className="listStyle navigation-inside">
                 <li>
-                   <NavLink  activeClassName="active-Link"   to="/whatAbout"
+                   <NavLink  activeClassName="underline"   to="/whatAbout"
                                
                    > What to Expect</NavLink>
                 </li>
                 <li>
-                <NavLink    activeClassName="active-Link" to="/warranty"
+                <NavLink    activeClassName="underline" to="/warranty"
                 
                           > Warranty</NavLink>
                 </li>
@@ -23,16 +23,16 @@ function Navigation()
             </div>
             <ul className="listStyle navigation-inside">
                 <li>
-                <NavLink   activeClassName="active-Link" to="/teams"
+                <NavLink   activeClassName="underline" to="/teams"
                
                   > About</NavLink>
                 </li>
                 <li>
-                <NavLink   activeClassName="active-Link" to="/partner"
+                <NavLink   activeClassName="underline" to="/partner"
                                   > Partners</NavLink>
                 </li>
                 <li>
-                <NavLink   activeClassName="active-Link" to="/contactUs"
+                <NavLink   activeClassName="underline" to="/contactUs"
                                   >Contact</NavLink>
                 </li>
             </ul>
