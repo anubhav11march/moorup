@@ -55,7 +55,7 @@ const  clickHandler5 =(e)=>{
             <div className="inr-bodyWA">
              <div className="body-1WA" style={{display:"flex",alignItems:"center", cursor:"pointer"}} >
                  <h2>Why choose a Moorup Verified Pre-Owned product, instead of new one ? </h2>
-                 <img src={require('../images/dropD.png').default} style={{height:"2rem",width:"2rem",transform:"rotate(180deg)"}} />
+                 <div style={{backgroundColor:"#006400",color:'white',fontSize:'2rem',fontWeight:'400',borderRadius:'50%',textAlign:"centre",marginLeft:"1rem",paddingLeft:".5rem",paddingRight:".5rem",paddingBottom:".3rem"}} >+</div>
                  </div>
                  <div className="body-1-1WA">
                      <p>Environment:Today, an estimated 1.5 billion telephones are produced every single year, which has significant environmental impact. It is as safe as buying new, but cheaper and immnesly beneficial for our planet </p>
