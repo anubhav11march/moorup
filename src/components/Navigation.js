@@ -6,26 +6,34 @@ function Navigation()
         <div className="navigation">
             <ul className="listStyle navigation-inside">
                 <li>
-                   <NavLink className="link" activeClassName="activeLink" to="/whatAbout"> What to Expect</NavLink>
+                   <NavLink  activeClassName="active-Link"   to="/whatAbout"
+                               
+                   > What to Expect</NavLink>
                 </li>
                 <li>
-                <NavLink  className="link"  activeClassName="activeLink" to="/warranty"> Warranty</NavLink>
+                <NavLink    activeClassName="active-Link" to="/warranty"
+                
+                          > Warranty</NavLink>
                 </li>
             </ul>
             <div >
-            <NavLink className="link" to="/"> 
+            <NavLink  to="/"> 
             <img style={{width:"100px",marginTop:"20px"}} src={require("../images/moorup-dark-green--2--10@1x.png").default} alt="" srcset="" />
             </NavLink>
             </div>
             <ul className="listStyle navigation-inside">
                 <li>
-                <NavLink className="link"  activeClassName="activeLink" to="/teams"> About</NavLink>
+                <NavLink   activeClassName="active-Link" to="/teams"
+               
+                  > About</NavLink>
                 </li>
                 <li>
-                <NavLink className="link"  activeClassName="activeLink" to="/partner"> Partners</NavLink>
+                <NavLink   activeClassName="active-Link" to="/partner"
+                                  > Partners</NavLink>
                 </li>
                 <li>
-                <NavLink className="link"  activeClassName="activeLink" to="/contactUs">Contact</NavLink>
+                <NavLink   activeClassName="active-Link" to="/contactUs"
+                                  >Contact</NavLink>
                 </li>
             </ul>
         </div>

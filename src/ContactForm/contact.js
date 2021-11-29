@@ -41,7 +41,7 @@ import '../css/contact.css'
     return (
         <>
         
-        <div style={{textAlign:'center'}}>
+        <div style={{textAlign:'center'}} >
             <h2 style={{fontSize:'20pt',fontWeight:'700'}} className='contactH'>Get in touch:</h2>
             <p style={{width:"30%",marginLeft:"35%",fontSize:'16pt',}} className='contactP'>Leave us a message, and we will get in touch as soon as possible.</p>
         </div>
@@ -65,7 +65,7 @@ import '../css/contact.css'
             <div className="formRight">
             { !isLoading?
             <div style={{width:"100%",height:"100%",textAlign:"center"}}> <h1 style={{fontWeight:"bold",fontSize:"50pt"}}>Thank You !</h1></div>:
-             <h1>Loading</h1>}
+             null}
               {count?null:
              <div>
             <h3>Send us a message</h3>
