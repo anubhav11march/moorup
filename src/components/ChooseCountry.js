@@ -17,14 +17,17 @@ const ChooseCountry = () => {
                         <img src={require('../images/icons8-expand-arrow-90.png').default}/>
                     </div>
                     {click?
-            <div className="dropdown2C">
-                <ul className="dropdownUlC">
-                    <li className="dropDownLiC">Norway</li>
-                    <li>Sweden</li>
-                    <li>Denmark</li>
-                    <li>Iceland</li>
-                    <li>England</li>
-                </ul>
+            <div className="dropdown21">
+                  <div className="drop2item1"> Norway</div>
+                  <div className="drop2item1"> England</div>
+                  <div className="drop2item1"> Iceland</div>
+                  <div className="drop2item1"> Germany</div>
+                  <div className="drop2item1"> Norway</div>
+                  <div className="drop2item1"> Norway</div>
+                  <div className="drop2item1"> Norway</div>
+                  <div className="drop2item1"> Norway</div>
+                   
+               
             </div>:null}
                   </div> 
         </div>

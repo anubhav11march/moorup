@@ -136,3 +136,18 @@
     margin-left: 4rem;
     border-radius: 2rem;
 }
+.dropdown2{
+    background-color:lightgray;
+    height: 8rem;
+    overflow-y: auto;
+    width: 30%;
+    scrollbar-width: none;
+}
+.drop2item{
+    margin-left: 1rem;
+    font-family: "Muli-Regular", Helvetica ;
+    font-weight: 400;
+    color: #007e69;
+    scrollbar-width: none;
+    margin-top: 1rem;
+}

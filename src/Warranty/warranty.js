@@ -51,13 +51,16 @@ const Warranty =()=>{
                     </div>
                     {click?
             <div className="dropdown2">
-                <ul className="dropdownUl">
-                    <li className="dropDownLi">Norway</li>
-                    <li>Sweden</li>
-                    <li>Denmark</li>
-                    <li>Iceland</li>
-                    <li>England</li>
-                </ul>
+                  <div className="drop2item"> Norway</div>
+                  <div className="drop2item"> England</div>
+                  <div className="drop2item"> Iceland</div>
+                  <div className="drop2item"> Germany</div>
+                  <div className="drop2item"> Norway</div>
+                  <div className="drop2item"> Norway</div>
+                  <div className="drop2item"> Norway</div>
+                  <div className="drop2item"> Norway</div>
+                   
+               
             </div>:null}
                   </div>
             </div>
