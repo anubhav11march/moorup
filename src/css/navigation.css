@@ -11,8 +11,7 @@
     list-style-type: none;
     padding: 0;
 }
-.listStyle a
-{
+.navlinks{
     padding-right: 2rem;
     color:#01463a;
     font-weight: 700;
@@ -29,9 +28,10 @@
 }
 
 
-.underline {
-    border-bottom-width: 8px;
-    border-bottom-style: solid;
-    color: red;
-    border-bottom-color: #01463a;
+.activeclass {
+  border-bottom-style: solid;
+  border-bottom-width: .1rem;
+  
+  border-bottom-color: #01463a;
+  
 }

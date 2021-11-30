@@ -18,16 +18,21 @@ const ChooseCountry = () => {
                     </div>
                     {click?
             <div className="dropdown21">
-                  <div className="drop2item1"> Norway</div>
-                  <div className="drop2item1"> England</div>
-                  <div className="drop2item1"> Iceland</div>
-                  <div className="drop2item1"> Germany</div>
-                  <div className="drop2item1"> Norway</div>
-                  <div className="drop2item1"> Norway</div>
-                  <div className="drop2item1"> Norway</div>
-                  <div className="drop2item1"> Norway</div>
-                   
-               
+                  <div className="drop2item1">
+                      <img style={{marginRight:'1rem'}} src={require('../images/norway.png').default}/>
+                       Norway</div>
+                  <div className="drop2item1"> 
+                  <img style={{marginRight:'1rem'}} src={require('../images/sweden.png').default}/>
+                  Sweden</div>
+                  <div className="drop2item1"> 
+                  <img style={{marginRight:'1rem'}} src={require('../images/denmark.png').default}/>
+                  Denmark</div>
+                  <div className="drop2item1">
+                  <img style={{marginRight:'1rem'}} src={require('../images/iceland.png').default}/>
+                       Iceland</div>
+                  <div className="drop2item1">
+                  <img style={{marginRight:'1rem'}} src={require('../images/united-kingdom.png').default}/>
+                       England</div> 
             </div>:null}
                   </div> 
         </div>

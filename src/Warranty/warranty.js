@@ -51,16 +51,21 @@ const Warranty =()=>{
                     </div>
                     {click?
             <div className="dropdown2">
-                  <div className="drop2item"> Norway</div>
-                  <div className="drop2item"> England</div>
-                  <div className="drop2item"> Iceland</div>
-                  <div className="drop2item"> Germany</div>
-                  <div className="drop2item"> Norway</div>
-                  <div className="drop2item"> Norway</div>
-                  <div className="drop2item"> Norway</div>
-                  <div className="drop2item"> Norway</div>
-                   
-               
+                  <div className="drop2item">
+                      <img style={{marginRight:'1rem'}} src={require('../images/norway.png').default}/>
+                       Norway</div>
+                  <div className="drop2item"> 
+                  <img style={{marginRight:'1rem'}} src={require('../images/sweden.png').default}/>
+                  Sweden</div>
+                  <div className="drop2item"> 
+                  <img style={{marginRight:'1rem'}} src={require('../images/denmark.png').default}/>
+                  Denmark</div>
+                  <div className="drop2item">
+                  <img style={{marginRight:'1rem'}} src={require('../images/iceland.png').default}/>
+                       Iceland</div>
+                  <div className="drop2item">
+                  <img style={{marginRight:'1rem'}} src={require('../images/united-kingdom.png').default}/>
+                       England</div> 
             </div>:null}
                   </div>
             </div>

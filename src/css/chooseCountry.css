@@ -41,19 +41,24 @@
     border-radius: 2rem;
 }
 .dropdown21{
-    background-color:lightgray;
+    background: rgba(236, 236, 236,0.3);
     height: 8rem;
     overflow-y: auto;
     margin-left: 53.5%;
     margin-bottom: .5rem;
-    width: 30%;
-    scrollbar-width: none;
+    width: 28%;
+}
+.dropdown21::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
 }
 .drop2item1{
     margin-left: 1rem;
     font-family: "Muli-Regular", Helvetica ;
     font-weight: 400;
+    display: flex;
     color: #007e69;
-    scrollbar-width: none;
-    margin-top: 1rem;
+    /* align-items: center;
+    align-content: center; */
+        margin-top: 1rem;
 }

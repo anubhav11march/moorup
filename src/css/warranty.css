@@ -137,16 +137,25 @@
     border-radius: 2rem;
 }
 .dropdown2{
-    background-color:lightgray;
+    background: rgba(105, 66, 66, 0.3);
     height: 8rem;
     overflow-y: auto;
-    width: 30%;
+    width: 28%;
     scrollbar-width: none;
+    align-items: center;
+    align-content: center;
+}
+.dropdown2::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
 }
 .drop2item{
     margin-left: 1rem;
     font-family: "Muli-Regular", Helvetica ;
     font-weight: 400;
+    align-items: center;
+    align-content: center;
+    display: flex;
     color: #007e69;
     scrollbar-width: none;
     margin-top: 1rem;
