@@ -5,10 +5,18 @@ import "../css/warranty.css"
 
 const Warranty =()=>{ 
     const[click,setClick]=useState(false);
+    const[selected,setSelected]=useState('Choose Country');
+
     const toggleHandler=()=>{
         setClick(!click)
     }
-    const[selected,setSelected]=useState()
+    const updateInputValue=(value) => {
+    
+        console.log(value)
+        
+          setSelected(value)
+          setClick(false)
+    }
     return(
         <>
         
@@ -46,24 +54,24 @@ const Warranty =()=>{
                 <img src={require("../images/power2@1x.png").default}/>
                   <div className="body-2-1-textW">
                     <div className="dropdown" onClick={toggleHandler}>
-                        Choose Country
+                        {selected}
                         <img src={require('../images/icons8-expand-arrow-90.png').default}/>
                     </div>
                     {click?
             <div className="dropdown2">
-                  <div className="drop2item">
+                  <div className="drop2item" value="Norway" onClick={()=>updateInputValue('Norway')}>
                       <img style={{marginRight:'1rem'}} src={require('../images/norway.png').default}/>
                        Norway</div>
-                  <div className="drop2item"> 
+                  <div className="drop2item" value="Sweden" onClick={()=>updateInputValue('Sweden')}> 
                   <img style={{marginRight:'1rem'}} src={require('../images/sweden.png').default}/>
                   Sweden</div>
-                  <div className="drop2item"> 
+                  <div className="drop2item" value="Denmark" onClick={()=>updateInputValue('Denmark')}> 
                   <img style={{marginRight:'1rem'}} src={require('../images/denmark.png').default}/>
                   Denmark</div>
-                  <div className="drop2item">
+                  <div className="drop2item" value="Iceland" onClick={()=>updateInputValue('Iceland')}>
                   <img style={{marginRight:'1rem'}} src={require('../images/iceland.png').default}/>
                        Iceland</div>
-                  <div className="drop2item">
+                  <div className="drop2item" value="England" onClick={()=>updateInputValue('England')}>
                   <img style={{marginRight:'1rem'}} src={require('../images/united-kingdom.png').default}/>
                        England</div> 
             </div>:null}

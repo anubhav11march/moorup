@@ -137,7 +137,7 @@
     border-radius: 2rem;
 }
 .dropdown2{
-    background: rgba(105, 66, 66, 0.3);
+    background: rgba(236, 236, 236, 0.3);
     height: 8rem;
     overflow-y: auto;
     width: 28%;
@@ -151,6 +151,7 @@
 }
 .drop2item{
     margin-left: 1rem;
+    cursor: pointer;
     font-family: "Muli-Regular", Helvetica ;
     font-weight: 400;
     align-items: center;

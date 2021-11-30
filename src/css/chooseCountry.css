@@ -58,6 +58,7 @@
     font-weight: 400;
     display: flex;
     color: #007e69;
+    cursor: pointer;
     /* align-items: center;
     align-content: center; */
         margin-top: 1rem;

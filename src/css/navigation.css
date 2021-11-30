@@ -12,7 +12,7 @@
     padding: 0;
 }
 .navlinks{
-    padding-right: 2rem;
+    margin-right: 2rem;
     color:#01463a;
     font-weight: 700;
     font-size: 20pt;
@@ -30,8 +30,7 @@
 
 .activeclass {
   border-bottom-style: solid;
-  border-bottom-width: .1rem;
-  
+  border-bottom-width: .1rem;  
   border-bottom-color: #01463a;
   
 }

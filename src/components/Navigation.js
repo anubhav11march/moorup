@@ -9,9 +9,7 @@ function Navigation()
         <div className="navigation">
             <ul className="listStyle navigation-inside">
                 <li>
-                   <NavLink  exact className={`navlinks ${location.pathname.includes('/whatAbout')?'activeclass':''}`}  activeClassName="activeclass"   to="/whatAbout"
-                               
-                   > What to Expect</NavLink>
+                   <NavLink  exact className={`navlinks ${location.pathname.includes('/whatAbout')?'activeclass':''}`}  activeClassName="activeclass"   to="/whatAbout"> What to Expect</NavLink>
                 </li>
                 <li>
                 <NavLink exact className={`navlinks ${location.pathname.includes('/warranty')?'activeclass':''}`}  activeClassName="activeclass" to="/warranty"
