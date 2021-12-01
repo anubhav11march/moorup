@@ -1,36 +1,28 @@
-.navigation
-{
-
-    display:flex;
-    justify-content: space-between;
-    padding:0 1.5rem;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1.5rem;
 }
 
-.listStyle
-{
-    list-style-type: none;
-    padding: 0;
+.listStyle {
+  list-style-type: none;
+  padding: 0;
 }
-.navlinks{
-    margin-right: 2rem;
-    color:#01463a;
-    font-weight: 700;
-    font-size: 20pt;
-    font-family: "Muli-Regular", Helvetica;
-    text-decoration:none;
-    cursor: pointer;
+.navlinks {
+  margin-right: 3.5rem;
+  padding-bottom: 3px;
+  color: #01463a;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
 }
-.navigation-inside
-{
-  
-    display:flex;
-    
+.navigation-inside {
+  display: flex;
 }
-
 
 .activeclass {
-  border-bottom-style: solid;
-  border-bottom-width: .1rem;  
-  border-bottom-color: #01463a;
-  
+  border-bottom: 2px solid #01463a;
+  /* border-radius: 0px; */
 }

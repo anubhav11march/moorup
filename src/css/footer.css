@@ -1,28 +1,24 @@
-.footer
-{
-    display: flex;
-    justify-content: space-between;
-    background-color: #d3d3d3;
-    padding:1.5rem
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f4;
+  padding: 1.5rem;
 }
 
-.footer-list
-{
-    display: flex;
-    justify-content: space-between;
+.footer-list {
+  display: flex;
+  justify-content: space-between;
 }
-.footer-list ul li
-{
-    line-height: 2.8;
-    color:black
-
+.footer-list ul li {
+  line-height: 2.8;
+  color: black;
 }
-.link{
-    padding-right: 2rem;
-    color:#01463a;
-    font-weight: 700;
-    font-size: 20pt;
-    font-family: "Muli-Regular", Helvetica;
-    text-decoration:none;
-    cursor: pointer;
+.link {
+  padding-right: 2rem;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
 }

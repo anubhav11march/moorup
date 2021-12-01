@@ -1,86 +1,108 @@
-.formCard
-{
-    display:flex;
-    height: 28rem;
-    width:75vw;
-    margin:20px auto;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius:10px;
-    overflow:hidden;
+.contactForm-header {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-.formLeft
-{
-   width:30%;
-   padding:1rem;
-   background-color:#008B8B;
-   color:white;
-   
+.formCard {
+  display: flex;
+  width: 75vw;
+  height: 24rem;
+  margin: 20px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
 }
 
-.formRight
-{
-    width:70%;
-    padding-left:2rem;
-   
-    align-self: center;
-  
-    
-}
-.formRight form
-{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    padding-right:1rem;
-    
+.formLeft {
+  width: 30%;
+  padding: 1rem 1rem 1rem 1.5rem;
+  background-color: #008b8b;
+  color: white;
+  font-family: 'Mulish', sans-serif;
 }
 
-.formRight form div
-{
-    width: 45%;
+.formRight {
+  width: 70%;
+  padding-left: 2rem;
+  font-family: 'Mulish', sans-serif;
+  align-self: center;
+}
+.formRight form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 1rem;
 }
 
-.inputElements
-{
-    display:flex;
-    flex-direction:column;
-
-}
-.inputElements label
-{
-    line-height:2;
+.formRight form div {
+  width: 45%;
 }
 
-.inputElements input
-{
-    background-color:	#F0F0F0;
-    border:1px solid gray;
-    padding:.4rem;
-    border-radius:5px;
+.thank-msg {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
 }
-.formRight form button
-{
-    margin:1rem;
-    margin-left: 80%;
-    background-color:#008B8B;
-    color:white;
-    padding:.5rem 1rem;
-    border:none;
-    width:100px;
-    cursor:pointer;
+
+.form-heading {
+  font-size: 18px;
+  font-weight: 700;
 }
-.lFt{
-    display: flex;
-    align-items: center;
-    margin-top: 1.5rem;
+
+.inputElements {
+  display: flex;
+  flex-direction: column;
 }
-.contactH{
-    font-family: "Muli-Bold", Helvetica;
-    font-style: normal;
+.inputElements label {
+  line-height: 2;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
-.contactP{
-    font-family: "Muli-Regular", Helvetica;
-    font-weight: 400;
-    font-style: normal;
+
+.inputElements input {
+  background-color: #f7f7f7;
+  border: 1px solid #898989;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.inputElements textarea {
+  background-color: #f7f7f7;
+  border: 1px solid #898989;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.formRight form button {
+  margin: 1rem;
+  margin-left: 80%;
+  background-color: #008b8b;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+.lFt {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.contactH {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.contactP {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 30%;
+  margin: auto;
 }

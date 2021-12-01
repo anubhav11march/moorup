@@ -1,119 +1,132 @@
-.mainWA{
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+.mainWA {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 7rem;
 }
-.bannerWA{
-    display: flex;
-    margin-top:0 ;
-    margin-bottom: 0;
-    /* background-color: saddlebrown; */
-    
+.bannerWA {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* background-color: saddlebrown; */
 }
 .banner-textWA {
-    margin-top: 0;
-    text-align: center;
-    /* background-color: salmon; */
-    line-height: 1.4;
-    padding: 2rem;
-    margin-left: 2rem;
-    align-items: center;
-    justify-content: center;
-    
+  margin-top: 0;
+  text-align: center;
+  /* background-color: salmon; */
+  line-height: 1.4;
+  padding: 2rem;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner-btnWA{
-    border-radius: .5rem;
-    padding: .5rem;
-    background-color: transparent;
-    border-color: #006400;
-    border-style: solid;
-    border-width: .13rem;
-    box-shadow: .2rem .4rem .2rem lightgrey;
+.banner-btnWA {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border-color: #007e69;
+  border-style: solid;
+  border-width: 0.13rem;
+  box-shadow: 0 10px 20px #0000001f;
 }
-.whatHeader{
-    font-family: "Muli-Bold", Helvetica;
-    font-weight: 700;
-    color: #007e69;
-    font-style: normal;
-    font-size: 40pt;
+.whatHeader {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  color: #007e69;
+  /* font-style: normal; */
+  font-size: 50px;
 }
-.banner-btnWA a{
-    text-decoration: none;
-    color: #006400;
-    
-    
+.banner-btnWA a {
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #007e69;
 }
-.banner-imgWA{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   
+.banner-imgWA {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 7rem;
 }
-.Np{
-    font-style: normal;
-    color: black;
-    font-size: 15pt;
-    line-height: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+.Np {
+  font-family: 'Mulish', sans-serif;
+  /* font-style: normal; */
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
-.bodyWA{
-    text-align: center;
-    margin-top: 9rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-    font-size: 35pt;
-    font-style: normal;
-    font-family: "Muli-Regular", Helvetica;
+.bodyWA {
+  text-align: center;
+  margin-top: 9rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  font-family: 'Mulish', sans-serif;
+}
+.bodyWA h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-left: -20%;
+}
+.inr-bodyWA {
+  justify-content: center;
+  align-self: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-left: 10%;
+  margin-left: 15%;
+}
 
-
+.body-1WA h2 {
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
 }
-.bodyWA h2{
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-left: -20%;
-}
-.inr-bodyWA{
-    justify-content: center;
-    align-self: center;
-    margin-top: 1rem;
-    padding: 1rem;
-    margin-left: 10%;
-    margin-left: 15%;
-}
-
-.body-1WA h3{
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-.body-1-1WA{
-  border-radius: .5rem;
+.body-1-1WA {
+  border-radius: 0.5rem;
   border-color: #006400;
   border-style: solid;
-  border-width: .12rem;
+  border-width: 0.12rem;
   padding-left: 1rem;
   padding-right: 2rem;
   width: 60%;
-  box-shadow: .3rem .5rem .3rem lightgray;
-  
+  box-shadow: 0.3rem 0.5rem 0.3rem lightgray;
 }
-.body-1-1WA p{
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-    font-family:"Muli-Regular", Helvetica;
-    color: black;
-    font-size: 15pt;
+.body-1-1WA p {
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Muli-Regular', Helvetica;
+  color: black;
+  font-size: 15pt;
 }
-.body-2WA{
-    width: 60%;
-    transition: 3s ease-out;
-    
+.body-2WA {
+  width: 60%;
+  transition: 3s ease-out;
 }
-.body-2WA p{
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-    font-family:"Muli-Regular", Helvetica;
+.body-2WA p {
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 18px;
+}
 
-    color: black;
-    font-size: 15pt;
+.plus-span {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #ffff;
+  background-color: #007e69;
+  margin-left: 20px;
+  font-size: 18px;
 }
